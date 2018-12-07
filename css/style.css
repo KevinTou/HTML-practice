@@ -109,7 +109,7 @@ font-family: 'Oswald', sans-serif; */
 .main-wrapper {
     width: 100%;
     height: 100vh;
-    background: url('/img/kenneth-lee-1196904-unsplash.jpg');
+    background: url('../img/kenneth-lee-1196904-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -136,6 +136,42 @@ font-family: 'Oswald', sans-serif; */
     font-size: 14px;
 }
 
+#mobile-menu-toggle:hover{ 
+    background-color: rgb(97, 97, 97);
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu ul {
+    display: block;
+    position: fixed;
+}
+
+.mobile-menu ul li {
+    margin-top: 24px;
+}
+
+.mobile-menu a {
+    display: block;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 105px;
+}
+
+.mobile-menu a:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+.mobile-menu.open {
+    display: block;
+}
+
 .header-middle-area {
     display: block;
     float: right;
@@ -149,6 +185,10 @@ font-family: 'Oswald', sans-serif; */
     line-height: 55px;
     margin-right: 10px;
     color: rgb(255, 255, 255);
+}
+
+.header-middle-area a:hover {
+    color: rgb(77, 0, 0);
 }
 
 /* MAIN */
@@ -179,6 +219,22 @@ font-family: 'Oswald', sans-serif; */
     margin: 0 auto;
 }
 
+.call-to-action:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+@media screen and (min-width: 700px) {
+    .banner-container {
+        width: 500px;
+        height: 500px;
+        margin: 70px auto;
+    }
+
+    .call-to-action {
+        margin-top: 25px;
+    }
+}
+
 /* FOOTER */
 footer {
     position: fixed;
@@ -202,10 +258,6 @@ footer {
     padding: 5px;
 }
 
-.copyright {
-    display: block;
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    padding: 5px;
-    color: rgb(255, 255, 255);
+.footer-links a:hover {
+    color: rgb(77, 0, 0);
 }

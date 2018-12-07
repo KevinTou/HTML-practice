@@ -14,7 +14,15 @@
   <div class="main-wrapper">
     <header class="site-header">
       <div class="menu-toggle-area">
-        <button id="mobile-menu-toggle">Menu</button>
+        <button id="mobile-menu-toggle" onclick="menuToggle()">Menu</button>
+        <div id="mobile-menu" class="mobile-menu">
+          <ul>
+            <li><a href="#">Take the Shot!</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
       <div class="header-middle-area">
         <a href="#">Company Name</a>
@@ -37,14 +45,12 @@
           <li><a href="#">Contact</a></li>
           <li><a href="#">About</a></li>
         </ul>
-        <div class="copyright">
-          <p class="copyright-info">Generic Copyright Info</span>
-        </div>
       </div>
-
 
     </footer>
   </div>
+
+  <script type="text/javascript" src="/js/app.js"></script>
 </body>
 
 </html>
