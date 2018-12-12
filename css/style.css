@@ -203,9 +203,55 @@ font-family: 'Oswald', sans-serif; */
 .banner-main p {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 75px;
     padding: 25px;
+}
+
+.banner-main h2 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.banner-main legend {
+    text-align: center;
+}
+
+.banner-main li {
+    margin: 20px;
+}
+
+.banner-main a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(17, 17, 17);
+}
+
+.banner-main a:hover {
+    color: rgb(77, 0, 0);
+}
+
+.banner-main img {
+    display: block;
+    margin: 70px auto;
+}
+
+.contact-form label {
+    margin: 5px;
+
+}
+
+.contact-form input {
+    margin: 5px;
+
+}
+
+.contact-form button {
+    margin: 5px;
 }
 
 .call-to-action {
@@ -217,6 +263,11 @@ font-family: 'Oswald', sans-serif; */
     padding: 5px;
     font-size: 20px;
     margin: 0 auto;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .call-to-action:hover {
